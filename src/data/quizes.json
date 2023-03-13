@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr5kve8uJvA1JcDmKbSh1a_JFvLt5tUI8n2A&usqp=CAU",
+    "stack": "html",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Who is making the Web standards",
+        "anwser": "A",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "The World Wide Web Consortium",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Mozilla",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Google",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Microsoft",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Choose the correct HTML element for the largest heading",
+        "anwser": "C",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "<heading>",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "<head>",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "<h1>",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "<h6>",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Choose the correct HTML element to define important text",
+        "anwser": "A",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "<strong>",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "<important>",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "<b>",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "<i>",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "img": "https://keywork.ir/wp-content/uploads/2020/06/hero.png",
+    "stack": "css",
+    "questions": [
+      {
+        "id": 1,
+        "text": "What does CSS stand for ?",
+        "anwser": "D",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Computer Style Sheets",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Colorful Style Sheets",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Creative Style Sheets",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Cascading Style Sheets",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Which HTML attribute is used to define inline styles",
+        "anwser": "C",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "font",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "class",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "style",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "styles",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Which is the correct CSS syntax",
+        "anwser": "B",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "{body:color=black;}",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "body{color:black;}",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "body:color=black;",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "{body;color:black;}",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "img": "https://northsoft.co/blog/wp-content/uploads/2022/11/image.jpeg",
+    "stack": "javascript",
+    "questions": [
+      {
+        "id": 1,
+        "text": "inside which HTML element do we put the JavaScript?",
+        "anwser": "D",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "<scripting>",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "<js>",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "<javascript>",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "<script>",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "How do you write 'Hello World' in an alert box?",
+        "anwser": "D",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "msgBox('Hello World');",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "alertBox('Hello World');",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "msg('Hello World');",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "alert('Hello World');",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "How to write an IF statement in Javascipt",
+        "anwser": "B",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "if i==5 then",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "if (i==5)",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "if i=5 then",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "if i=5",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "img": "https://miro.medium.com/max/1050/1*Fxa6oJFh2lRD7EnAcZIcQg.png",
+    "stack": "react",
+    "questions": [
+      {
+        "id": 1,
+        "text": "What is the correct command to create a new React project",
+        "anwser": "C",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "npx create-react-app",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "npm create-react-app",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "npx create-react-app myReactApp",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "npm create-react-app myReactApp",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "what does myReactApp refer 'npx create-react-app myReactApp' ",
+        "anwser": "A",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "The name you want to use for the new app",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "The directory to create the new app in",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "The type of app to create",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "A reference to an existing app",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "what command is used to start React local development server?",
+        "anwser": "D",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "npm build",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "npm serve",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "npm start",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "npm run dev",
+            "isCorrect": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "img": "https://www.filepicker.io/api/file/cWlkfXnMQKepNeIaRItV",
+    "stack": "redux",
+    "questions": [
+      {
+        "id": 1,
+        "text": "which of used to keep the value of components unique?",
+        "anwser": "A",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "key",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "storage",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Data",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Ref",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "To achieve dynamic UI updates ,Which of the following need to be updated?",
+        "anwser": "C",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "props",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "render",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "state",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "renderComponent",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "What is an action",
+        "anwser": "A",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "An object",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "a String",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "a function",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "a type",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "img": "https://miro.medium.com/max/800/1*IuHh_NZRbF3MQNzXhyxBRQ.png",
+    "stack": "git",
+    "questions": [
+      {
+        "id": 1,
+        "text": "What is Git?",
+        "anwser": "B",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "A remote repositiory platform",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "A version control system",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "A programming language",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "A nickname for GitHub",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "What is the command to get the installed version of Git",
+        "anwser": "C",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "gitVersion",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "getGitVersion",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "git --version",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "git help version",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Which option should you use to set the default user name for every repository on your computer?",
+        "anwser": "A",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "--global",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "--all",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "No need to specify,that is the default",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "--A",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  }
+]
