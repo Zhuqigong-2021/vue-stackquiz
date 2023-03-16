@@ -114,7 +114,7 @@ const onOptionSelected = (isCorrect) => {
         class="next bg-gradient-to-r from-violet-500 to-fuchsia-500 flex items-center"
         :class="{ fade: !isVIPValid }"
       >
-        > check anwser
+        check anwser
         <span
           class="material-symbols-outlined text-amber-400 font-black flex items-center ml-1"
         >
