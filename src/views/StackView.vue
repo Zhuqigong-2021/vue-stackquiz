@@ -13,6 +13,7 @@ const authStore = useAuthStore();
 const stackId = parseInt(route.params.id);
 const [stack] = quizes.filter((quiz) => quiz.id === stackId);
 const isOpen = ref(false);
+const isModalShow = ref(false);
 const isVIPValid = computed(() => authStore.isVIP);
 const currentQuestionIndex = ref(0);
 const showResult = ref(false);
@@ -30,6 +31,7 @@ const finalResult = computed(
 
 const moveToNext = () => {
   // if (!isCorrect) return;
+
   if (currentQuestionIndex.value + 1 >= numberOfQuestion) {
     // currentQuestionIndex.value++;
     showResult.value = true;
@@ -40,6 +42,9 @@ const moveToNext = () => {
 };
 const checkAnswer = () => {
   // router.push(`/stack/${stackId}/answer`);
+  if (!isVIPValid.value) {
+    isModalShow.value = true;
+  }
   if (localStorage.getItem('VIP') === 'true') {
     isOpen.value = !isOpen.value;
   }
@@ -58,6 +63,30 @@ const onOptionSelected = (isCorrect) => {
 </script>
 
 <template>
+  <div
+    v-if="isModalShow"
+    class="flex items-center justify-center fixed bg-[rgba(0,0,0,0.75)] left-0 right-0 top-0 bottom-0"
+  >
+    <div
+      class="relative items-center max-w-[300px] min-h-[200px] z-10 bg-white text-black p-10 rounded-md"
+    >
+      <div class="items-center flex flex-col p-3 font-normal">
+        Sorry~~ you are not VIP 👑,
+        <br />
+        <br />
+        To activate your access ,please go to ...
+
+        <strong class="mt-4">TOP BAR</strong>☝️
+      </div>
+
+      <button
+        @click="isModalShow = false"
+        class="bg-red-500 px-2 absolute bottom-3 right-3 rounded-sm text-white"
+      >
+        OK
+      </button>
+    </div>
+  </div>
   <div class="max-w-[1000px] mx-auto my-10 px-8">
     <QuestionHeader
       :questionStatus="questionStatus"
@@ -71,7 +100,7 @@ const onOptionSelected = (isCorrect) => {
     </div>
 
     <Result v-else :finalResult="finalResult" />
-    <div class="flex justify-between">
+    <div class="flex flex-col justify-between md:flex-row">
       <button
         v-show="!showResult"
         @click="moveToNext"
@@ -82,10 +111,10 @@ const onOptionSelected = (isCorrect) => {
       <button
         v-show="!showResult"
         @click="checkAnswer"
-        class="next bg-gradient-to-r disabled:opacity-50 from-violet-500 to-fuchsia-500 flex items-center"
-        :disabled="!isVIPValid"
+        class="next bg-gradient-to-r from-violet-500 to-fuchsia-500 flex items-center"
+        :class="{ fade: !isVIPValid }"
       >
-        check anwser
+        > check anwser
         <span
           class="material-symbols-outlined text-amber-400 font-black flex items-center ml-1"
         >
@@ -106,5 +135,8 @@ const onOptionSelected = (isCorrect) => {
 .quiz-container {
   max-width: 1000px;
   margin: 2rem auto;
+}
+.fade {
+  opacity: 0.5;
 }
 </style>
